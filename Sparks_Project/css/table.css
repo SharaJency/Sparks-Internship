@@ -1,0 +1,40 @@
+*{
+	padding: 10;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: black;
+}
+.bg{
+    background-image: url('../images/Bank1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container h2{
+	font-size: 40px;
+	color: red;
+}
+
+h2{
+	font-size: 40px;
+	color: red;
+}
+table{
+	letter-spacing: 1.2px;
+	color: red;
+}
+td{
+	text-align: center;
+	color: red;
+}
+
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}

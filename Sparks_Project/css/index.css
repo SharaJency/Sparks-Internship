@@ -1,0 +1,54 @@
+
+.bg{
+    background-image: url('../images/Backgraound.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: ;
+    color: #ff0548;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-style: bold;
+    font-weight: 50px;
+    transition: 0.5s;
+}
+
+button:hover,
+h1:hover {
+    transform: scale(1.1);
+}
+
+button:hover {
+    background-color: #4C4B4B;
+}
+
+footer {
+    color: #586776;
+    background-color: #EAF0F1;
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media only screen and (orientation:portrait) {
+    .intro {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .act {
+        padding-bottom: 100px;
+    }
+}
