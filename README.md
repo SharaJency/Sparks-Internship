@@ -16,9 +16,11 @@ Database contains two Tables- Users Table & Transaction Table
        User table have basic fields such as name, email & current balance.
        Transaction table records all transfers happened along with their time.
 
-Flow of the Website: Home Page > services>View all Users >shows all user details
-                     Home Page > services > Transfer Money >select the user from whom you have to transfer> Select reciever >enter amount > transfer.
-                     Home Page > Services > View Transfer History.
+Flow of the Website: 1.Home Page > services>View all Users >shows all user details
+
+                     2.Home Page > services > Transfer Money >select the user from whom you have to transfer> Select reciever >enter amount > transfer.
+                     
+                     3.Home Page > Services > View Transfer History.
 
 The apache server was set to run on port 2101 of localhost. and mysql was set on port 3306.
 
